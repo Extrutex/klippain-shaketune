@@ -40,7 +40,7 @@ function is_package_installed {
 }
 
 function install_package_requirements {
-    packages=("libopenblas-dev")
+    packages=("libopenblas-dev" "liblapack-dev")
     packages_to_install=""
 
     for package in "${packages[@]}"; do
