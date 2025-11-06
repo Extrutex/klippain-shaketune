@@ -133,7 +133,6 @@ origin: https://github.com/Frix-x/klippain-shaketune.git
 path: ~/klippain_shaketune
 virtualenv: ${KLIPPER_VENV_PATH}
 requirements: requirements.txt
-system_dependencies: system-dependencies.json
 primary_branch: main
 managed_services: klipper
 EOF
